@@ -1,0 +1,43 @@
+.roda-pe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor-secundaria);
+    padding-bottom: 1rem; 
+    text-align: center;
+
+}
+
+.rodape__p{
+    color:var(--cor-direitos-roda-pe);
+}
+
+.lista-roda-pe{
+    display: flex;
+    align-items: center;
+}
+
+.item-roda-pe{
+    padding: 0rem 1.2rem 0 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.item-roda-pe a{
+    text-decoration: none;
+    color: var(--cor-hover-a);
+}
+
+.item-roda-pe a:hover{
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width:580px) {
+    .lista-roda-pe{
+        flex-direction: column;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+    .rodape__p{
+        text-align: center;
+    }
+}

@@ -1,0 +1,23 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(/style/destaques.css);
+@import url(/style/juntos.css);
+@import url(cliente.css);
+@import url(historia.css);
+@import url(roda-pe.css);
+
+:root{
+    --cor-principal:#074C5A;
+    --cor-secundaria:#92DE42;
+    --cor-hover-a:#fff;
+    --cor-direitos-roda-pe:#ffffffb6;
+    --font-principal:'Poppins', sans-serif;
+}
+
+body{
+    font-family: var(--font-principal);
+    font-size: 1rem;
+
+}
+
+

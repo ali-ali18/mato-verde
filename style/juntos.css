@@ -1,0 +1,88 @@
+.juntos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.classes-lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.lista-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+}
+
+.lista-itens h3{
+    font-size: 1.5rem;
+}
+
+.fi-rr-handshake,.fi-rr-truck-side,.fi-rr-badge-check,.fi-rr-leaf{
+    font-size: 40px;
+    color: var(--cor-secundaria);
+}
+
+@media (max-width:580px){
+    .juntos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .classes-lista{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .lista-itens{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+        margin: .7rem 0 .7rem 0;
+    }
+    .lista-itens h3{
+        font-size: 2rem;
+    }
+    .lista-itens p{
+        font-size: 1.5rem;
+    }
+    .juntos-titulo{
+        margin: 0;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 852px){
+    .classes-lista{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 1rem;
+        padding: 1rem;
+        flex-direction: row;
+    }
+    .lista-itens h3{
+        font-size: 2rem;
+    }
+    .lista-itens p{
+        font-size: 1rem;
+    }
+    .juntos-titulo{
+        margin: 0;
+    }
+
+}
