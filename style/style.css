@@ -5,6 +5,9 @@
 @import url(cliente.css);
 @import url(historia.css);
 @import url(roda-pe.css);
+@import url(contato.css);
+@import url(avisos.css);
+@import url(carrosel.css);
 
 :root{
     --cor-principal:#074C5A;
@@ -17,7 +20,4 @@
 body{
     font-family: var(--font-principal);
     font-size: 1rem;
-
 }
-
-

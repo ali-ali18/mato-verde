@@ -8,7 +8,7 @@
 
 .classes-lista{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     margin-top: 1rem;
     padding: 1rem;

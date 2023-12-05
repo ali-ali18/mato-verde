@@ -25,12 +25,39 @@
             </label>
             <ul class="lista">
                 <ol class="lista__item"><a class="home" href="#">Home</a></ol>
-                <ol class="lista__item"><a href="#">Novidades</a></ol>
+                <ol class="lista__item"><a href="avisos.html">Avisos</a></ol>
                 <ol class="lista__item"><a href="#">Sobre nós</a></ol>
                 <ol class="lista__item"><a href="#">Nossos produtos</a></ol>
-                <ol class="lista__item"><a href="#">Contato</a></ol>
+                <ol class="lista__item"><a href="contato.html">Contato</a></ol>
             </ul>
     </header>
+
+        
+    <section class="section">
+        <div class="carrosel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="imgs/2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/1.png" alt="">
+                    </div>
+                    <div class="swiper-slide"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="destaques">
         <h1 class="destaque-titulo">Destaques da Semana</h1>
@@ -91,7 +118,7 @@
             </li>
             <li class="lista-itens">
                 <i class="fi fi-rr-badge-check"></i>
-                <h3>Produtos 100% Puros</h3>
+                <h3>Produtos 100% naturais</h3>
                 <p>Preocupados com a saúde e o bem-estar, trabalhamos com produtos 100% naturais </p>
             </li>
             <li class="lista-itens">
@@ -124,6 +151,7 @@
         <img class="historia__img" src="imgs/cha-historia-banner.png" alt="banner-cha">
     </section>
 
+
     <footer class="roda-pe">
         <img src="imgs/21.png" alt="logo-mato-verde">
         <ul class="lista-roda-pe">
@@ -135,6 +163,33 @@
         </ul>
         <p class="rodape__p">® 2020 Mato Verde. Todos os direitos reservados. CNPJ 00.000.000/0001-00</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            autoplay: {
+                delay: 10000,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+            },
+
+        });
+
+    </script>
+
 </body>
 
 </html>

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carrosel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 1.5rem 0;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+@media (min-width: 853px) and (max-width: 1108px){
+}
+
+@media (min-width: 581px) and (max-width: 852px){
+}
+
+@media (max-width:580px){
+    .carrosel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+}
