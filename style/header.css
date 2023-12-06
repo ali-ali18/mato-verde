@@ -82,6 +82,9 @@
     .container{
         margin: 0;
     }
+    .cabecalho__a{
+        width: 80%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 852px){
@@ -124,7 +127,6 @@
     .container{
         margin: 0;
     }
-
 }
 
 @media (min-width:769px){

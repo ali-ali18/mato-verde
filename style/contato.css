@@ -1,0 +1,77 @@
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.principal img{
+    width: 40%;
+}
+
+
+.principal__txt h1{
+    font-size: 2.5rem;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.principal__txt p {
+    font-size: 1.7rem;
+    text-align: center;
+    width: 80%;
+}
+
+.principal__txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.principal__icon{
+    margin-top: 1rem;
+}
+
+.principal__icon a{
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.icon{
+    margin: 0 .9rem;
+    color: black;
+}
+
+.fi-rr-envelope:hover{
+    color: #e02d2d;
+    transition: color .3s ease-in-out;
+}
+.fi-brands-whatsapp:hover{
+    color: #25D366;
+    transition: color .3s ease-in-out;
+}
+.fi-sr-phone-call:hover{
+    color: #0077ff;
+    transition: color .3s ease-in-out;
+}
+
+@media (min-width: 853px) and (max-width: 1108px){
+}
+
+@media (min-width: 581px) and (max-width: 852px){
+}
+
+@media (max-width:580px){
+    .principal{
+        flex-direction: column;
+    }
+    .principal img{
+        margin: 2rem 0;
+        width: 80%;
+    }
+    .principal__txt p{
+        width: 95%;
+    }
+}

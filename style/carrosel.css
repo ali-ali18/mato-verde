@@ -29,12 +29,24 @@
     text-align: center;
 }
 
-
-
 @media (min-width: 853px) and (max-width: 1108px){
+    .carrosel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 1.5rem 0;
+    }
 }
 
 @media (min-width: 581px) and (max-width: 852px){
+    .carrosel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 1.5rem 0;
+    }
 }
 
 @media (max-width:580px){
@@ -48,5 +60,8 @@
     .swiper-button-prev,
     .swiper-button-next {
         display: none;
+    }
+    .swiper-slide img{
+        height: 30vh;
     }
 }
