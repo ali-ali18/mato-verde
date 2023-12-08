@@ -38,6 +38,10 @@
     font-weight: 500;
 }
 
+.cliente__a:hover{
+    color: black;
+}
+
 .cliente__titulo{
     color: var(--cor-secundaria);
 }

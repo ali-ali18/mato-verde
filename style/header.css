@@ -5,7 +5,6 @@
     width: 100%;
 }
 
-
 .container{
     display: flex;
     align-items: center;
@@ -28,6 +27,7 @@
 .lista__item{
     font-size: 1.2rem;
     font-weight: 500;
+    margin-right: 1rem;
 }
 
 .lista__item a {
@@ -62,6 +62,7 @@
     .lista__item{
         padding: 1rem;
         background-color: var(--cor-secundaria);
+        margin: 0;
     }
     .lista__item a{
         /* padding: 1.5rem; */
@@ -104,6 +105,7 @@
     .lista__item{
         padding: 1rem;
         background-color: var(--cor-secundaria);
+        margin: 0;
     }
     .lista__item a{
         /* padding: 1.5rem; */

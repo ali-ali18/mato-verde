@@ -41,6 +41,7 @@
     font-size: 1.2rem;
 }
 
+
 @media (max-width:580px){
     .container-historia{
         display:flex;

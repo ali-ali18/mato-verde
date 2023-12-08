@@ -8,6 +8,7 @@
 @import url(contato.css);
 @import url(avisos.css);
 @import url(carrosel.css);
+@import url(historia-pag.css);
 
 :root{
     --cor-principal:#074C5A;

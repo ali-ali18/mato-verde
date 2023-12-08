@@ -1,0 +1,64 @@
+.principal__historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.container__alinhamento{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem;
+    flex-wrap: wrap;
+}
+
+.titulo-historia{
+    font-size: 2.5rem;
+    color:var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.tamanho-titulo{
+    font-size: 2rem;
+}
+
+.img__tam{
+    width: 40%;
+    margin-right: 2rem;
+    border-radius: 8px;
+    height: 70vh;
+}
+
+.container-txt{
+    width: 50%;
+}
+
+.container-txt p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.margin-left{
+    margin-left: 2rem;
+    margin-right: 0;
+}
+
+.lista-historia{
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+    margin-left: 2rem;
+    margin: 1rem 0 2rem 2rem;
+
+}
+
+.lista__item-historia{
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+
+
