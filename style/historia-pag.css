@@ -62,3 +62,64 @@
 }
 
 
+@media (min-width: 853px) and (max-width: 1108px){
+}
+
+@media (min-width: 581px) and (max-width: 852px){
+    .img__tam{
+        width: 40%;
+        margin-right: 0rem;
+        border-radius: 8px;
+        height: 45vh;
+    }
+    .container__alinhamento{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem;
+        flex-wrap: wrap;
+    }
+    .container-txt{
+        width: 53%;
+        margin-bottom: 1.5rem;
+    }
+    .container-txt p{
+        margin-top: 1.5rem;
+    }
+    .titulo-historia{
+        margin-bottom: 1rem;
+    }
+    .alinhamento-direita{
+        margin-left: 1rem;
+    }
+    .margin-left{
+        margin: 1rem;
+    }
+}
+
+@media (max-width:580px){
+    .container__alinhamento{
+        flex-direction:column;
+    }
+    .img__tam{
+        width: 95%;
+        margin-right: 0rem;
+        border-radius: 8px;
+        height: 50vh;
+    }
+    .container-txt{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .tamanho-titulo{
+        margin-top: 1.2rem;
+    }
+    .img-none{
+        display: none;
+    }
+    .container-txt p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}

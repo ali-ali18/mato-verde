@@ -9,6 +9,8 @@
 @import url(avisos.css);
 @import url(carrosel.css);
 @import url(historia-pag.css);
+@import url(pagamento.css);
+@import url(afiliado.css);
 
 :root{
     --cor-principal:#074C5A;
